@@ -26,11 +26,7 @@ public class Main {
 
 
   public static String multiplyCharNTimes(char c, int n) {
-    StringBuilder result = new StringBuilder();
-    for (int i = 0; i < n; i++) {
-      result.append(c);
-    }
-    return result.toString();
+    return String.valueOf(c).repeat(Math.max(0, n));
   }
 
   private static void printTopOrBottomLane(int width) {
