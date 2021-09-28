@@ -24,7 +24,6 @@ public class Main {
     return value;
   }
 
-
   public static String multiplyCharNTimes(char c, int n) {
     return String.valueOf(c).repeat(Math.max(0, n));
   }
@@ -40,8 +39,6 @@ public class Main {
     System.out.print(multiplyCharNTimes(' ', width-2));
     System.out.println("|");
   }
-
-
 
   private static void printShape(int height, int width) {
     for (int i = 0; i < height; i++) {
